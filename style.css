@@ -16,10 +16,12 @@ header {
 
 .highScore {
     text-align: left;
+    font-size: 18px;
 }
 
 .timer {
     text-align: right;
+    font-size: 18px;
 }
 
 .card-body {
@@ -35,6 +37,7 @@ header {
 .card-text {
     text-align: center;
     font-family: 'Old Standard TT', serif;
+    font-size: 18px;
 
 }
 
@@ -49,4 +52,8 @@ header {
 
 div {
     text-align: center;
+}
+
+#quizContainer {
+    padding-top: 20px;
 }
