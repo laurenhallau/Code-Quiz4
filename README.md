@@ -9,3 +9,5 @@ https://laurenhallau.github.io/Code-Quiz4/
 ## Credit
 w3schools.com
 codepen.io
+
+![Code Quiz](code_quiz.png)
