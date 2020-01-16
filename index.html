@@ -18,8 +18,8 @@
 <body>
     <!--Header to contain High Score & Timer-->
     <header>
-        <div class = "highScore">High Score</div>
-        <div class = "timer">Time: 75</div>
+        <div class ="highScore" id="scoreID">High Score</div>
+        <div class ="timer" id="timerID">Time: 75</div>
     </header>
 
     <!--Main Body Container for Code Quiz Game-->
@@ -27,7 +27,7 @@
         <div class="row"> <!--Main Row -->
             <div class = "col-lg-12">
                 <!--Card with Intro and start button-->
-                <div class = "card" style = "width: 100%">
+                <div class ="card" style = "width: 100%">
                     <div class = "card-body">
                         <h1 class = "card-title">Coding Quiz Challenge</h1>
                         <br />
@@ -36,11 +36,14 @@
                 </div>
                 <!--Button-->
                 <div>
-                    <button type="button" class="btn btn-dark" id="start">Start!</button>
+                    <button type="button" class="btn btn-dark" id="start" onclick="startQuiz()">Start!</button>
                 </div>
             </div>
         </div>
     </div>
+<!--JavaScript Links-->    
+<script src="script.js"></script>
+<script src="questions.js"></script>
 <!--BootStrap JS, Popper.js & jQuery LInks-->    
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
