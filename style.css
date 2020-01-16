@@ -45,8 +45,9 @@ header {
 
 #start {
     text-align: center;
-    padding: 5px 15px 5px 15 px;
-    background-color: navy;
+    padding: 5px 15px 5px 15px;
+    background-color: white;
+    color: black;
     margin: 10px;    
     font-family: 'Old Standard TT', serif;
 }

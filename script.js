@@ -160,7 +160,6 @@ var quizQuestion = {
         quizQuestion.counter--;
         $(".timer").html("Time: " + quizQuestion.counter);
         if (quizQuestion.counter <= 0) {
-            $("#timeout")[0].play();
             quizQuestion.counter = 0;
             clearInterval(quizQuestion.countDownTimer);
             quizQuestion.finalPage();
